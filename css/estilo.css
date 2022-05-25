@@ -16,3 +16,223 @@ nav {
 
 .tamLogo {
   width: 150px; }
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center; }
+
+h2 {
+  text-align: center;
+  color: black; }
+
+p {
+  color: black; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  background-image: radial-gradient(#f09470, #2980b9);
+  margin: auto;
+  padding: auto;
+  top: 0; }
+
+.logos {
+  width: 30px;
+  height: 30px; }
+
+.oferta {
+  font-size: 2rem; }
+
+.card {
+  background-color: #ebb2ad; }
+
+.card-text {
+  color: black;
+  text-transform: uppercase;
+  font-size: 2 rem; }
+
+.card-img-top {
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 350px; }
+
+.card-group {
+  margin-top: 100px;
+  padding-top: 100px; }
+
+.card-body {
+  margin-top: 20px;
+  padding-top: 20px; }
+
+.padreFlex {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  grid-area: padreFlex; }
+
+.hijoFlex {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #F5B041;
+  box-shadow: 18px 5px 12px;
+  text-align: center;
+  grid-area: hijoFlex; }
+
+.img5 {
+  margin: 0;
+  top: 0;
+  width: 260px;
+  grid-area: imagen4; }
+
+.img6 {
+  margin: 0;
+  width: 260px;
+  grid-area: imagen4; }
+
+.img7 {
+  margin: 0;
+  width: 260px;
+  grid-area: imagen4; }
+
+.hijoFlex p {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  grid-area: hijoFlexP; }
+
+.caja1 {
+  background-color: #FAD7A0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center; }
+
+.caja1 p {
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.cajaMayor {
+  display: grid;
+  grid-template-columns: 1,1fr;
+  gap: 40px;
+  border: 3px black solid;
+  border-radius: 4px; }
+
+.hover {
+  color: darkslategrey;
+  font-size: 40px; }
+
+.hover:hover {
+  color: blue; }
+
+.listaPrecio {
+  background-color: #f7d7d4; }
+
+section {
+  grid-area: section;
+  padding: auto; }
+
+.botonWhatsApp {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.hover {
+  color: darkslategrey;
+  font-size: 40px; }
+
+.hover:hover {
+  color: blue; }
+
+.listaPrecio {
+  background-color: #f7d7d4; }
+
+.botonWhatsApp {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.galeria {
+  display: grid;
+  background-image: radial-gradient(#f09470, #2980b9);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "imagen1" "imagen2" "imagen3" "imagen4";
+  gap: 20px; }
+
+.img1 {
+  margin: 30px;
+  width: 300px;
+  grid-area: imagen1; }
+
+.img2 {
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  grid-area: imagen2; }
+
+.img3 {
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  grid-area: imagen3; }
+
+.img4 {
+  margin: 30px;
+  width: 300px;
+  grid-area: imagen4; }
+
+.form1 {
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+.form1:hover {
+  color: blue; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem; }
+
+.listaPrecio {
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-top: 50px; }
+
+footer {
+  background-image: radial-gradient(#D6DBDF, #AED6F1);
+  color: black;
+  font-size: 1.5rem;
+  height: 150px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  grid-area: footer; }
+
+@media screen and (min-width: 720px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "imagen1 imagen2" "imagen3 imagen4"; }
+  .padreFlex {
+    flex-wrap: wrap; }
+  section {
+    height: 1200px; } }
+
+@media screen and (min-width: 1360px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "imagen1 imagen2" "imagen3 imagen4"; }
+  .padreFlex {
+    flex-wrap: wrap; } }

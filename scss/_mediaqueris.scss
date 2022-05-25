@@ -1,0 +1,34 @@
+@media screen and (min-width:720px){
+    .galeria{
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(2,1fr);
+        grid-template-areas: 
+        "imagen1 imagen2"
+        "imagen3 imagen4"
+        ;
+    }
+    .padreFlex{
+        flex-wrap: wrap;
+    }
+    section{
+        height: 1200px;
+    }
+
+}
+
+@media screen and (min-width:1360px){
+    .galeria{
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(2,1fr);
+        grid-template-areas: 
+        "imagen1 imagen2"
+        "imagen3 imagen4"
+        ;
+    }
+   
+    .padreFlex{
+        flex-wrap: wrap;
+    }
+
+    
+    }
