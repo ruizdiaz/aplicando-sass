@@ -43,16 +43,13 @@ body {
   width: 30px;
   height: 30px; }
 
-.oferta {
-  font-size: 2rem; }
-
 .card {
   background-color: #ebb2ad; }
 
 .card-text {
   color: black;
   text-transform: uppercase;
-  font-size: 2 rem; }
+  font-size: 2rem; }
 
 .card-img-top {
   margin-top: 10px;
@@ -149,7 +146,7 @@ section {
 
 .hover {
   color: darkslategrey;
-  font-size: 40px; }
+  font-size: 2rem; }
 
 .hover:hover {
   color: blue; }
