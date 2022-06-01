@@ -5,15 +5,8 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-*/
-h2 {
-    text-align: center;
-    color:$color-texto;
-}
 
-p{
-    color:$color-texto;
-}
+*/
 body {
     font-family: 'Roboto', sans-serif;
     color:$color-texto;
@@ -91,7 +84,8 @@ body {
     width: 260px;
     grid-area:imagen4;
 }
- */   
+*/
+    
 .hijoFlex p {
     color: black;
      font-size: $tamaño-fuente;

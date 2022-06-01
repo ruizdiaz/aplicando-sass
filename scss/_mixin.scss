@@ -1,0 +1,7 @@
+$estilo:(color:black,tamFuente:2rem);
+h2 {
+    color: map-get($estilo,color);
+    font-size: map-get($estilo,tamFuente);
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,7 +1,8 @@
-$estilo:(color:black,tamFuente:2rem);
-h1 {
-    color: map-get($estilo,color);
-    font-size: map-get($estilo,tamFuente);
-    font-weight: bold;
+@mixin h2 {
     text-align: center;
+    color: $color-texto;
+    text-transform: uppercase
+}
+p {
+    @include h2;
 }

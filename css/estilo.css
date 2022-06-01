@@ -25,14 +25,8 @@ h1{
     font-weight: bold;
     text-align: center;
 }
+
 */
-h2 {
-  text-align: center;
-  color: black; }
-
-p {
-  color: black; }
-
 body {
   font-family: 'Roboto', sans-serif;
   color: black;
@@ -104,7 +98,7 @@ body {
     width: 260px;
     grid-area:imagen4;
 }
- */
+*/
 .hijoFlex p {
   color: black;
   font-size: 2rem;
@@ -205,10 +199,12 @@ section {
 .form1:hover {
   color: blue; }
 
+/*
 h2 {
-  text-transform: uppercase;
-  font-size: 3rem; }
-
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+*/
 .listaPrecio {
   border-radius: 10px;
   margin-top: 50px;
@@ -242,7 +238,7 @@ footer {
   .padreFlex {
     flex-wrap: wrap; } }
 
-h1 {
+h2 {
   color: black;
   font-size: 2rem;
   font-weight: bold;
@@ -253,3 +249,8 @@ h1 {
   top: 0;
   width: 260px;
   grid-area: imagen4; }
+
+p {
+  text-align: center;
+  color: black;
+  text-transform: uppercase; }
