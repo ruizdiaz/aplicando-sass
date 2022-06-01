@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -17,12 +18,14 @@ nav {
 .tamLogo {
   width: 150px; }
 
-h1 {
-  color: black;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center; }
-
+/*
+h1{
+    color:$color-texto;
+    font-size: $tamaño-fuente;
+    font-weight: bold;
+    text-align: center;
+}
+*/
 h2 {
   text-align: center;
   color: black; }
@@ -41,7 +44,8 @@ body {
 
 .logos {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  background-color: violet; }
 
 .card {
   background-color: #ebb2ad; }
@@ -81,22 +85,26 @@ body {
   text-align: center;
   grid-area: hijoFlex; }
 
-.img5 {
-  margin: 0;
-  top: 0;
-  width: 260px;
-  grid-area: imagen4; }
-
-.img6 {
-  margin: 0;
-  width: 260px;
-  grid-area: imagen4; }
-
-.img7 {
-  margin: 0;
-  width: 260px;
-  grid-area: imagen4; }
-
+/*
+.img5{
+    margin: 0;
+    top: 0;
+    width: 260px;
+    grid-area:imagen4;
+}
+.img6{
+    margin: 0;
+    top: 0;
+    width: 260px;
+    grid-area:imagen4;
+}
+.img7{
+    margin: 0;
+    top: 0;
+    width: 260px;
+    grid-area:imagen4;
+}
+ */
 .hijoFlex p {
   color: black;
   font-size: 2rem;
@@ -233,3 +241,15 @@ footer {
     grid-template-areas: "imagen1 imagen2" "imagen3 imagen4"; }
   .padreFlex {
     flex-wrap: wrap; } }
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center; }
+
+.img5, .img6, .img7 {
+  margin: 0;
+  top: 0;
+  width: 260px;
+  grid-area: imagen4; }

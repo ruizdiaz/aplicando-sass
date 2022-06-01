@@ -1,0 +1,12 @@
+.img5 {
+    margin: 0;
+    top: 0;
+    width: 260px;
+    grid-area: imagen4;
+}
+.img6 {
+    @extend .img5;
+}
+.img7 {
+    @extend .img6;
+}
